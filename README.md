@@ -7,7 +7,7 @@ Each async method call corresponds with one API call. For example:
     {
         Amount = CurrencyAmount.EUR(200m),
         CounterpartyAlias = Pointer.IBAN("NL09BUNQ2025429452", "Puck Meerburg"),
-        Description = "Send me money""
+        Description = "Send me money"
     });
 
 This library call is equal to:
